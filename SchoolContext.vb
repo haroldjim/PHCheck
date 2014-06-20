@@ -7,7 +7,7 @@ Namespace DAL
         Inherits DbContext
 
         Public Sub New()
-            MyBase.New("dbContext")
+            MyBase.New("dbContext") 'dbContext
         End Sub
 
         Public Property Students As DbSet(Of Student)
